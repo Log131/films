@@ -23,7 +23,7 @@ dp = Dispatcher(bot=bot, storage=storage)
 
 
 global tbase, tc
-tbase = sqlite3.connect('user.db')
+tbase = sqlite3.connect('user666.db')
 tc = tbase.cursor()
 tbase.execute('CREATE TABLE IF NOT EXISTS users(user_id PRIMARY KEY)')
 
